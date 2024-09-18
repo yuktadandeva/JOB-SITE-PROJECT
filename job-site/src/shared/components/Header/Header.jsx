@@ -11,12 +11,12 @@ const handleNavigation = (path)=>{
   return (
 
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Typography>LOGO</Typography>
+        <Typography>JOBSforYOU</Typography>
         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2 }}>
         <Button variant="text">Home</Button>
         <Button variant="text">Notices</Button>
-        <Button variant="text">Home</Button>
-        <Button variant="text">Home</Button>
+        <Button variant="text">something</Button>
+        <Button variant="text">Help</Button>
         </Box>
         <ButtonSmall value={"Login/Register"} onClick={()=>handleNavigation('/login')}></ButtonSmall>
         </Toolbar>

@@ -6,7 +6,6 @@ import { Header } from './shared/components/Header/Header'
 const App = () => {
   return (
   <Router>
-    <Header></Header>
    <Routes>
    <Route path="/" element={<Navigate to="/dashboard" />} />
    <Route path='/*' element={<AuthRoutes/>}></Route>
