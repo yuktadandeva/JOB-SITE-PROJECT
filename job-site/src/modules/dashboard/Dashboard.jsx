@@ -1,7 +1,9 @@
-import React from 'react'
-
+import { ButtonSmall } from "../../shared/widgets/Buttons/ButtonSmall"
 export const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+        Dashboard
+        <ButtonSmall value={"hello world"}></ButtonSmall>
+    </div>
   )
 }
