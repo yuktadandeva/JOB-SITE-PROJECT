@@ -9,8 +9,9 @@ const handleNavigation= (path)=>{
 navigate(path);
 }
   return (
-    <Box sx={{display:'flex', alignItems: "center",justifyContent:"center"}}>
-        <Box>
+    <Box sx={{display:'flex', alignItems: "center",justifyContent:"center", height:"100vh"}}>
+        <Box sx={{border:"1px solid grey", height:"70vh", width:"30%",padding:"40px"}}>
+        <Typography variant="h3" sx={{textAlign:"center"}}>Login</Typography>
         <ButtonSmall value={"Register"} onClick={()=>handleNavigation('/register')}></ButtonSmall>
         </Box>
     </Box>
